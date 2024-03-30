@@ -19,7 +19,7 @@ Este projeto utiliza as seguintes dependências:
 ![Texto Alternativo](https://github.com/marcosoliveira253/landingpage_animada/blob/main/src/images/Tela%20Macbook-Air.png))
 
 ## Link da página animada
-[Visite a página](https://landingpage-animada.netlify.app/#home)
+[Visite a página](https://landingpage-animada.netlify.app/#home){:target="_blank"}
 ## Contribuição
 
 Contribuições são sempre bem-vindas. Sinta-se à vontade para abrir uma issue ou enviar um pull request.
