@@ -1,0 +1,174 @@
+#content {
+    width: 100vw;
+    margin: 0 auto;
+}
+
+main #home {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#cta {
+    width: 80%;
+    gap: 28px;
+    display: flex;
+    flex-direction: column;
+}
+#cta h1 {
+    font-size: 3.5rem;
+    color: #1d1d1d;
+}
+
+#cta span {
+    color: #e9a209;
+}
+
+#cta .desctiption {
+    font-size: 1.2rem;
+}
+
+#cta_buttons {
+    display: flex;
+    gap: 24px;
+}
+
+#cta_buttons a {
+    text-decoration: none;
+    color: #1d1d1d;
+}
+
+.btn-item {
+    width: 230px;
+    height: 60px;
+    color: #1d1d1dad;
+    border-radius: 12px;
+    padding: 10px 25px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.btn-phone {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 8px 14px;
+    font-weight: 500;
+    border-radius: 12px;
+}
+
+.btn-phone {
+    border: none;
+    color: #000000;
+}
+
+.btn-phone:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001;
+    transition: all 0.3s ease;
+}
+
+.btn-phone:hover {
+    color: #000000;
+}
+
+.btn-phone:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+}
+
+.btn-phone:active {
+    top: 2px;
+}
+
+#banner {
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    background-color: var(--color-primary-2);
+    border-radius: 40% 30% 0% 20%;
+}
+
+#banner img {
+    width: 100%;
+    padding: 5%;
+}
+
+@media screen and (max-width: 1170px) {
+    #cta {
+        width: 100%;
+        margin-bottom: 100px;
+        text-align: center;
+        align-items: center;
+    }
+
+    #banner {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main #home {
+        flex-direction: column;
+    }
+    #banner {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #content {
+        padding: 0px;
+    }
+    #cta .title {
+        font-size: 2rem;
+    }
+
+    main #home {
+        padding: 0px;
+    }
+    #home {
+        padding: 10px;
+    }
+    .btn-default {
+        padding: 6px;
+    }
+
+    #cta_buttons {
+        display: block;
+        gap: 10px;
+        justify-content: center;
+        font-size: 0.8rem;
+    }
+
+    #cta_buttons a {
+        margin-bottom: 20px;
+        font-size: 1rem;
+    }
+
+}
