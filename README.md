@@ -15,7 +15,7 @@ Este projeto utiliza as seguintes dependências:
 - Fontawesome
 - Scrollreveal
 
-## Imagem da tela de login
+## Imagem da landing page animada
 ![Texto Alternativo](https://github.com/marcosoliveira253/landingpage_animada/blob/main/src/images/Tela%20Macbook-Air.png))
 
 
