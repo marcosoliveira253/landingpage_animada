@@ -16,7 +16,7 @@ Este projeto utiliza as seguintes dependências:
 - Scrollreveal
 
 ## Imagem da tela de login
-![Texto Alternativo]([https://github.com/marcosoliveira253/tela-login/blob/main/img/tela.png](https://github.com/marcosoliveira253/landingpage_animada/blob/main/src/images/Tela%20Macbook-Air.png?raw=true))
+![Texto Alternativo](https://github.com/marcosoliveira253/landingpage_animada/blob/main/src/images/Tela%20Macbook-Air.png))
 
 
 ## Contribuição
